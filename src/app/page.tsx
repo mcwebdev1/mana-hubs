@@ -70,10 +70,9 @@ export default function Home() {
         aria-hidden="true"
         className="mana-desktop-bg pointer-events-none absolute inset-0 bg-[#dfdfdf] bg-cover bg-center bg-no-repeat"
       />
+      <div className="mana-phone-bg pointer-events-none absolute inset-0" aria-hidden="true" />
       <div className="mana-hubs-stage relative">
         <article className="mana-hubs-frame overflow-hidden">
-          <div className="mana-phone-bg pointer-events-none absolute inset-0" aria-hidden="true" />
-
           <div className="relative flex h-full flex-col items-start justify-center px-4 py-[31px]">
             <div className="flex min-h-px w-full flex-1 flex-col items-start gap-[131px] rounded-[19px] bg-[rgba(255,255,255,0.44)] px-[10px] py-[27px] backdrop-blur-[8px]">
               <header className="flex w-full shrink-0 items-end justify-between px-[15px] pb-[19px]">

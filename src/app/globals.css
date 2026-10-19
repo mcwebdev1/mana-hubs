@@ -40,6 +40,8 @@ body {
   }
 
   .mana-phone-bg {
+    position: fixed;
+    inset: 0;
     background-image: url("/card-hubs-photo.jpg");
   }
 }
