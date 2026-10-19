@@ -26,7 +26,29 @@ body {
   transform: scale(min(1, 100vw / 430px, 100dvh / 932px));
 }
 
+.mana-desktop-bg,
+.mana-phone-bg {
+  background-color: #dfdfdf;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 430px) {
+  .mana-desktop-bg {
+    display: none;
+  }
+
+  .mana-phone-bg {
+    background-image: url("/card-hubs-photo.jpg");
+  }
+}
+
 @media (min-width: 431px) {
+  .mana-phone-bg {
+    display: none;
+  }
+
   .mana-desktop-bg {
     background-image: url("/tech-spaces-loft-10-2.jpg");
   }

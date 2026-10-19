@@ -72,15 +72,7 @@ export default function Home() {
       />
       <div className="mana-hubs-stage relative">
         <article className="mana-hubs-frame overflow-hidden">
-          <div className="pointer-events-none absolute inset-0" aria-hidden="true">
-            <div className="absolute inset-0 bg-[#dfdfdf]" />
-            <img
-              src={asset("/card-hubs-photo.jpg")}
-              alt=""
-              fetchPriority="high"
-              className="absolute inset-0 h-full w-full max-w-none object-cover"
-            />
-          </div>
+          <div className="mana-phone-bg pointer-events-none absolute inset-0" aria-hidden="true" />
 
           <div className="relative flex h-full flex-col items-start justify-center px-4 py-[31px]">
             <div className="flex min-h-px w-full flex-1 flex-col items-start gap-[131px] rounded-[19px] bg-[rgba(255,255,255,0.44)] px-[10px] py-[27px] backdrop-blur-[8px]">

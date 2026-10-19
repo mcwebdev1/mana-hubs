@@ -12,12 +12,23 @@ export const metadata: Metadata = {
   title: "Mana Hubs",
   description:
     "Miami's only community-led coworking ecosystem. Book a tour, visit Mana Hubs curated by Mana Tech, or the Biscayne Showroom by Mana Fashion.",
+  icons: {
+    icon: [{ url: "/icon-mana-common.svg", type: "image/svg+xml" }],
+    shortcut: [{ url: "/icon-mana-common.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/icon-mana-common.svg" }],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/card-hubs-photo.jpg"
+          media="(max-width: 430px)"
+        />
         <link
           rel="preload"
           as="image"
