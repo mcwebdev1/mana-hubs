@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/0baax8ayxok9m.css","style"]
+:HL["/_next/static/chunks/306jbny6x8irt.css","style"]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/card-hubs-photo.jpg","image",{"media":"(max-width: 430px)"}]
 :HL["/tech-spaces-loft-10-2.jpg","image",{"media":"(min-width: 431px)"}]
@@ -12,4 +12,4 @@
 :HL["/icon-instagram.svg","image"]
 :HL["/icon-linkedin.svg","image"]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"qTOeNfMvd9yJzn8QC8Jzw","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"kH6wZiLaV2jPGUHgcuUJk","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
