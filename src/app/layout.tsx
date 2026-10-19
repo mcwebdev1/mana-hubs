@@ -17,6 +17,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
+      <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/tech-spaces-loft-10-2.jpg"
+          media="(min-width: 431px)"
+        />
+      </head>
       <body className="min-h-full">{children}</body>
     </html>
   );

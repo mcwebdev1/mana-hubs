@@ -63,28 +63,21 @@ const socials = [
   },
 ] as const;
 
-const desktopBackground = "/tech-spaces-loft-10-2.jpg";
-
 export default function Home() {
   return (
     <main className="relative flex min-h-dvh items-center justify-center bg-[#dfdfdf]">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-[#dfdfdf] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('${asset(desktopBackground)}')` }}
+        className="mana-desktop-bg pointer-events-none absolute inset-0 bg-[#dfdfdf] bg-cover bg-center bg-no-repeat"
       />
       <div className="mana-hubs-stage relative">
         <article className="mana-hubs-frame overflow-hidden">
           <div className="pointer-events-none absolute inset-0" aria-hidden="true">
             <div className="absolute inset-0 bg-[#dfdfdf]" />
             <img
-              src={asset("/card-hubs-bg.png")}
+              src={asset("/card-hubs-photo.jpg")}
               alt=""
-              className="absolute inset-0 h-full w-full max-w-none object-cover"
-            />
-            <img
-              src={asset("/card-hubs-photo.png")}
-              alt=""
+              fetchPriority="high"
               className="absolute inset-0 h-full w-full max-w-none object-cover"
             />
           </div>

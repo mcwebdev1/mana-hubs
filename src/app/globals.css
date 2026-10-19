@@ -26,6 +26,12 @@ body {
   transform: scale(min(1, 100vw / 430px, 100dvh / 932px));
 }
 
+@media (min-width: 431px) {
+  .mana-desktop-bg {
+    background-image: url("/tech-spaces-loft-10-2.jpg");
+  }
+}
+
 body {
   font-family: var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
