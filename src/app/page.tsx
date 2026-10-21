@@ -12,7 +12,7 @@ const links = [
     icon: "/icon-star-alt.svg",
   },
   {
-    label: "Biscayne Showroom by Mana Fashion",
+    label: "Mana Fashion Showroom at Museum Tower",
     href: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1ZPyd7WAyCTGnYX8G8D9ZHFwzT7qCNPmZlBqjd8pr8MtlkhmjACZtcWVzVF3A_y0TT0pO6uVqx",
     icon: "/icon-star-alt.svg",
   },
@@ -108,7 +108,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="flex w-full items-center overflow-hidden border-b border-solid border-[rgba(22,22,22,0.2)] py-[13px] pr-5 pl-[19.5px] text-[#161616] transition-opacity hover:opacity-70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#161616]"
                     >
-                      <span className="min-w-px flex-1 text-left text-[16px] leading-[20.5px]">
+                      <span className="min-w-px flex-1 text-left text-[18px] leading-[23px]">
                         {link.label}
                       </span>
                       <img
