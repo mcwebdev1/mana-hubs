@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/306jbny6x8irt.css","style"]
+:HL["/_next/static/chunks/2jz6y9x-pd29c.css","style"]
 :HL["/card-hubs-photo.jpg","image",{"media":"(max-width: 430px)"}]
 :HL["/tech-spaces-loft-10-2.jpg","image",{"media":"(min-width: 431px)"}]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"7jHsOFnKUMzJsVJMAoPde","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"ZEe0wleslvORJut8osok3","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
