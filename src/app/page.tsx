@@ -12,7 +12,7 @@ const links = [
     icon: "/icon-star-alt.svg",
   },
   {
-    label: "Mana Fashion Showroom at Museum Tower",
+    label: "Fashion Showroom by Mana Fashion",
     href: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1ZPyd7WAyCTGnYX8G8D9ZHFwzT7qCNPmZlBqjd8pr8MtlkhmjACZtcWVzVF3A_y0TT0pO6uVqx",
     icon: "/icon-star-alt.svg",
   },

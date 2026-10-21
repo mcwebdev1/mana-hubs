@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 const description =
-  "Miami's only community-led coworking ecosystem. Book a tour, visit Mana Hubs curated by Mana Tech, or the Mana Fashion Showroom at Museum Tower.";
+  "Miami's only community-led coworking ecosystem. Book a tour, visit Mana Hubs curated by Mana Tech, or the Fashion Showroom by Mana Fashion.";
 const previewImage = "https://links.manahubs.com/mana-hubs-preview.png";
 
 export const metadata: Metadata = {
